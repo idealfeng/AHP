@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local project settings and secrets
+.env
+.env.*
+.sixth/
+cache/
+
+# Generated outputs
+outputs/
+results/
+
+# Optional local editor state
+.vscode/*
+!.vscode/settings.json
